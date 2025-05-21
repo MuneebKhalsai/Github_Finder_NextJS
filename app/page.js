@@ -25,7 +25,7 @@ const addusername = (e) => {
     <form onSubmit={addusername}>
       <input className="w-120 h-15 border rounded px-2 bg-white text-black" type="text" placeholder="                                  Enter a Username" />
       <br />
-      <button className=" w-30 border rounded     px-2 h-15 mt-5 ml-40 bg-blue-500 hover:bg-blue-700 transform text-white  ">View</button>
+      <button className=" w-30 border rounded cursor-pointer  px-2 h-15 mt-5 ml-40 bg-blue-500 hover:bg-blue-700 transform text-white  ">View</button>
     </form>
 </div>
 
