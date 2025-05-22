@@ -39,7 +39,7 @@ const User = async ({ params }) => {
 </div>
 <div>
     
-      <a href={response.html_url} target="_blank">
+      <a href={data.html_url} target="_blank">
                             <button className=" hover:bg-blue-500 border decoration-2 rounded-lg w-200 ml-70 mt-10 bg-[#101a43] p-2 text-lg outline-[#8f969c] text-white cursor-pointer" id="next">
                                 View Github</button>
                         </a>
