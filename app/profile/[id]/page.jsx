@@ -15,7 +15,7 @@ const User = async ({ params }) => {
        <div className=' bg-white h-130 w-300 ml-10 mt-20 border rounded-2xl '>
        
        <div className='flex items-start gap-6'>
-        <img className='ml-10 h-50 rounded-full mt-5' src={data.avatar_url} alt="" />
+        <img className=' hover:scale-120 duration-700 transform ml-10 h-50 rounded-full mt-5' src={data.avatar_url} alt="" />
             <h1 className='mt-30 ml-30 text-xl font-extrabold underline underline-offset-4 decoration-4 text-black'>{data.name}</h1>
              
             </div>
